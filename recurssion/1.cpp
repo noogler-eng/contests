@@ -1,5 +1,5 @@
 // All subsets
-// subsets contains all substring and sunarray
+// subsets contains all substring and subarray
 
 
 #include<iostream>
