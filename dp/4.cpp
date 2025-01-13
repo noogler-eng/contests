@@ -8,7 +8,6 @@ using namespace std;
 // tabulization method
 string findLCS(int n, int m,string &s, string &t){
     vector<vector<string>> table(n+1, vector<string>(m+1, ""));
-    string str = "";
 
     for(int i=1; i<n+1; i++){
         for(int j=1; j<m+1; j++){
